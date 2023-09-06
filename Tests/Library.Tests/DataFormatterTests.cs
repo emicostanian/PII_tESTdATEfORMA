@@ -20,7 +20,7 @@ public class DataFormatterTests
     public void SrtingVacio()
     {
         string input = "";
-        string expected = "2002-09-20";
+        string expected = "";
         string output = DateFormatter.ChangeFormat(input);
         Assert.AreEqual(output, expected);
     }
